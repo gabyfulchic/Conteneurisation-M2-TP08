@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  mdb-01:
+    build: .
+    container_name: mdb-01
+    environment:
+      - MYSQL_DATABASE=foobar
+    env_file:
+      - .env
