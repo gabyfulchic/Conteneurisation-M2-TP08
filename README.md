@@ -12,5 +12,8 @@ Dans ce repository on peut trouver plusieurs choses :
 docker-compose up --build -d && docker-compose run mdb-01 env
 ```
 
-* proof.
+* proof-01 - Defaults values
 ![proof](commands.png)
+
+* proof-02 - Overriding `MYSQL_ROOT_PASSWORD` with `--build-arg`
+![proof](commands2.png)
